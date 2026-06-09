@@ -1,0 +1,32 @@
+{
+  "name": "money-skills",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "description": "Open-source financial research skills for AI agents. Promotion site: https://teng.dev",
+  "license": "MIT",
+  "scripts": {
+    "list": "node scripts/list-skills.mjs",
+    "validate": "node scripts/validate.mjs",
+    "pack": "node scripts/pack.mjs"
+  },
+  "keywords": [
+    "agent-skills",
+    "finance",
+    "investment-research",
+    "supply-chain",
+    "serenity",
+    "openclaw",
+    "hermes",
+    "claude-code",
+    "codex"
+  ],
+  "homepage": "https://teng.dev",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tengbot/money-skills.git"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
